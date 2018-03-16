@@ -1,0 +1,67 @@
+<div>
+			<h2 class="text-primary pull-left"><strong><em>3 月</em></strong></h2>
+			<button type="button" class="btn btn-primary btn-lg pull-right"
+				data-toggle="modal" data-target="#work_record_add_modal"
+				onclick="readyToAddWorkRecord()">
+				<span class="glyphicon glyphicon-calendar"></span> 添加日志
+			</button>
+			<div class="clearfix"></div>
+			</div>
+			<hr/>
+			<div class="panel-group" id="workrecordlist">
+				<div class="panel panel-default panelstyle">
+					<div class="panel-heading bg-primary text-normal" style="position:relative">
+						<a data-toggle="collapse" data-parent="#workrecordlist"
+								href="#collapseOne">
+								<h3 class="panel-title titlestyle"><strong><em>3月14日</em></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Spring mvc初步实践</h3>
+						</a>
+						<button type="button" class="btn btn-danger btn-sm delbtn"
+							onclick="readyToDelWorkRecord('todo')">
+							<span class="glyphicon glyphicon-minus"></span> 删除
+						</button>
+					</div>
+					<div id="collapseOne" class="panel-collapse collapse in">
+						<div class="panel-body">
+							<pre>ffdsfdslmfdsinsalifda
+fffdsfdsfdsfds</pre>
+						</div>
+					</div>
+				</div>
+				
+				
+				
+				<div class="panel panel-default panelstyle">
+					
+					<div class="panel-heading bg-primary text-normal" style="position:relative">
+						<a data-toggle="collapse" data-parent="#accordion"
+								href="#collapseTwo">
+								<h3 class="panel-title titlestyle"><strong><em>3月14日</em></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Spring mvc初步实践</h3>
+						</a>
+						<button type="button" class="btn btn-danger btn-sm"
+							data-toggle="modal" data-target="#work_record_add_modal"
+							onclick="readyToAddWorkRecord()" style="position:absolute;right:1%;top:5px;">
+							<span class="glyphicon glyphicon-minus"></span> 删除
+						</button>
+					</div>
+					<div id="collapseTwo" class="panel-collapse collapse">
+						<div class="panel-body">
+							<pre>ffdsfdslmfdsinsalifda
+fffdsfdsfdsfds</pre>
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion"
+								href="#collapseThree"> 点击我进行展开，再次点击我进行折叠。第 3 部分 </a>
+						</h4>
+					</div>
+					<div id="collapseThree" class="panel-collapse collapse">
+						<div class="panel-body">Nihil anim keffiyeh helvetica, craft
+							beer labore wes anderson cred nesciunt sapiente ea proident. Ad
+							vegan excepteur butcher vice lomo.</div>
+					</div>
+				</div>
+				
+			</div>
